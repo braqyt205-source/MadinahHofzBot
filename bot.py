@@ -12,8 +12,7 @@ from telegram.ext import (
 )
 
 OWNER_ID = 199134557
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-
+token = os.getenv("BOT_TOKEN")
 FILE = Path("groups.json")
 
 
